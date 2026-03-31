@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #0f1220;
+  color: #fff;
+  min-width: 320px;
+}
+
+.app {
+  padding: 16px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.header p {
+  margin: 2px 0 0;
+  color: #aeb7d0;
+  font-size: 13px;
+}
+
+.card {
+  background: #1a1f35;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 14px;
+  padding: 14px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.22);
+  margin-bottom: 12px;
+}
+
+.card.small {
+  color: #d9deee;
+  font-size: 13px;
+}
+
+.status {
+  margin: 0 0 12px;
+  color: #d9deee;
+  line-height: 1.4;
+}
+
+.actions {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.primary {
+  background: #1a73e8;
+  color: white;
+}
+
+.secondary {
+  background: #4b556b;
+  color: white;
+}
+
+.danger {
+  background: #c0392b;
+  color: white;
+}
+
+ol {
+  margin: 8px 0 0 18px;
+  padding: 0;
+}
+
+li + li {
+  margin-top: 6px;
+}

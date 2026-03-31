@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Text Reader</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="header">
+        <img src="icons/48.png" alt="Text Reader icon" class="icon" />
+        <div>
+          <h1>Text Reader</h1>
+          <p>Read highlighted text aloud</p>
+        </div>
+      </header>
+
+      <section class="card">
+        <p id="status" class="status">Select text on a page, then press Read.</p>
+        <div class="actions">
+          <button id="readBtn" class="primary">🔊 Read selection</button>
+          <button id="pauseBtn" class="secondary">⏸ Pause</button>
+          <button id="stopBtn" class="danger">⏹ Stop</button>
+        </div>
+      </section>
+
+      <section class="card small">
+        <strong>How to use</strong>
+        <ol>
+          <li>Highlight text on any webpage</li>
+          <li>Click the extension icon</li>
+          <li>Press Read, Pause/Play, or Stop</li>
+        </ol>
+      </section>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
